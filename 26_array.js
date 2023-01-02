@@ -16,7 +16,29 @@
 
 //refrence type
 
-let arr1 = [1, 2, 3];
-let arr2 = arr1;
-console.log('arr1', arr1);
-console.log('arr2', arr2);
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// console.log('arr1', arr1);
+// console.log('arr2', arr2);
+
+// // how to clone array : ===================
+// // 1: using slice(0) function
+// // 2: using [],concat(array1)
+// // 3: sprade operator [...array1] 
+
+// let array1 = ['item1','item2']
+// console.log('array1',array1)
+// // clone array 1: using slice(0) function
+// let array2 = array1.slice(0)
+// // clone array 2: using [],concat(array1)
+// let array2 = [].concat(array1);
+// // clone array 3: sprade operator [...array1] 
+// let array2 = [...array1,'item3'] 
+// console.log('array2',array2)
+
+
+// // how to concatenate two array 
+
+// let array1 = ['item1','item2']
+// let array2 = [...array1,'item3'] 
+// console.log('array2',array2)
