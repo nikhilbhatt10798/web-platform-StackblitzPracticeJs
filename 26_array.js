@@ -55,6 +55,8 @@ const fruits = ['apples', 'mangos', 'banana', 'pineapple'];
 // }
 // fruits.forEach(test)
 
-for (let ele of fruits) {
-  console.log(ele);
-}
+// for (let ele of fruits) {
+//   console.log(ele);
+// }
+// Q- find how many time element repeats ?
+const number = [1, 4, 5, 3, 4, 7, 8, 1, 3, 5, 45, 67, 45];
