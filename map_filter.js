@@ -47,6 +47,6 @@ const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // console.log(newMember);
 
-const newMember = num.map((el) => el * 2);
+const newMember = num.map((el) => el ** 2);
 console.log(num);
 console.log(newMember);
